@@ -33,15 +33,16 @@ Bu proje, e-postaların spam olup olmadığını tahmin eden bir **makine öğre
 - Jupyter Notebook (model eğitimi ve analiz)
 
 ---
-## 🗂️ Proje Yapısı
 
-spam-detection-app/
-│
-├── veri.csv → E-posta veri seti
-├── veri.ipynb → Veri analizi ve ön işleme
-├── algoritma.ipynb → Model eğitimi ve değerlendirme
-├── eniyi.joblib → Eğitilmiş sınıflandırma modeli
-├── app.py → Streamlit tabanlı web uygulaması
-└── README.md → Açıklayıcı proje dökümanı
+## ⚙️ Uygulamayı Çalıştırma
 
+### Jupyter Notebook için:
+```bash
+jupyter notebook algoritma.ipynb
+
+### Web Arayüzü
+streamlit run app.py
+
+Gerekli kurulumlar:
+pip install -r requirements.txt
 
